@@ -1,0 +1,19 @@
+.container{
+  width: 360px;
+  padding: 0 24px;
+  box-sizing: content-box;
+  position: relative;
+  align-self: center;
+  margin-top: 10px;
+}
+
+.table-striped{
+  text-align: center;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+@media (max-width: 640px) {
+  .container {
+      display: relative;
+  }
+}
